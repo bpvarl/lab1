@@ -57,6 +57,13 @@
             this.button60 = new System.Windows.Forms.Button();
             this.button61 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -111,61 +118,6 @@
             this.button40 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.button102 = new System.Windows.Forms.Button();
-            this.button103 = new System.Windows.Forms.Button();
-            this.button104 = new System.Windows.Forms.Button();
-            this.button105 = new System.Windows.Forms.Button();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.button106 = new System.Windows.Forms.Button();
-            this.button107 = new System.Windows.Forms.Button();
-            this.button108 = new System.Windows.Forms.Button();
-            this.button109 = new System.Windows.Forms.Button();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.button110 = new System.Windows.Forms.Button();
-            this.button111 = new System.Windows.Forms.Button();
-            this.button112 = new System.Windows.Forms.Button();
-            this.button113 = new System.Windows.Forms.Button();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.button114 = new System.Windows.Forms.Button();
-            this.button115 = new System.Windows.Forms.Button();
-            this.button116 = new System.Windows.Forms.Button();
-            this.button117 = new System.Windows.Forms.Button();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.button118 = new System.Windows.Forms.Button();
-            this.button119 = new System.Windows.Forms.Button();
-            this.button120 = new System.Windows.Forms.Button();
-            this.button121 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.button82 = new System.Windows.Forms.Button();
-            this.button83 = new System.Windows.Forms.Button();
-            this.button84 = new System.Windows.Forms.Button();
-            this.button85 = new System.Windows.Forms.Button();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.button86 = new System.Windows.Forms.Button();
-            this.button87 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.button90 = new System.Windows.Forms.Button();
-            this.button91 = new System.Windows.Forms.Button();
-            this.button92 = new System.Windows.Forms.Button();
-            this.button93 = new System.Windows.Forms.Button();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.button94 = new System.Windows.Forms.Button();
-            this.button95 = new System.Windows.Forms.Button();
-            this.button96 = new System.Windows.Forms.Button();
-            this.button97 = new System.Windows.Forms.Button();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.button98 = new System.Windows.Forms.Button();
-            this.button99 = new System.Windows.Forms.Button();
-            this.button100 = new System.Windows.Forms.Button();
-            this.button101 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.button62 = new System.Windows.Forms.Button();
@@ -193,12 +145,60 @@
             this.button80 = new System.Windows.Forms.Button();
             this.button81 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.button82 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.button86 = new System.Windows.Forms.Button();
+            this.button87 = new System.Windows.Forms.Button();
+            this.button88 = new System.Windows.Forms.Button();
+            this.button89 = new System.Windows.Forms.Button();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.button90 = new System.Windows.Forms.Button();
+            this.button91 = new System.Windows.Forms.Button();
+            this.button92 = new System.Windows.Forms.Button();
+            this.button93 = new System.Windows.Forms.Button();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.button94 = new System.Windows.Forms.Button();
+            this.button95 = new System.Windows.Forms.Button();
+            this.button96 = new System.Windows.Forms.Button();
+            this.button97 = new System.Windows.Forms.Button();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.button98 = new System.Windows.Forms.Button();
+            this.button99 = new System.Windows.Forms.Button();
+            this.button100 = new System.Windows.Forms.Button();
+            this.button101 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.button102 = new System.Windows.Forms.Button();
+            this.button103 = new System.Windows.Forms.Button();
+            this.button104 = new System.Windows.Forms.Button();
+            this.button105 = new System.Windows.Forms.Button();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.button106 = new System.Windows.Forms.Button();
+            this.button107 = new System.Windows.Forms.Button();
+            this.button108 = new System.Windows.Forms.Button();
+            this.button109 = new System.Windows.Forms.Button();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.button110 = new System.Windows.Forms.Button();
+            this.button111 = new System.Windows.Forms.Button();
+            this.button112 = new System.Windows.Forms.Button();
+            this.button113 = new System.Windows.Forms.Button();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.button114 = new System.Windows.Forms.Button();
+            this.button115 = new System.Windows.Forms.Button();
+            this.button116 = new System.Windows.Forms.Button();
+            this.button117 = new System.Windows.Forms.Button();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.button118 = new System.Windows.Forms.Button();
+            this.button119 = new System.Windows.Forms.Button();
+            this.button120 = new System.Windows.Forms.Button();
+            this.button121 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.Eastern.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -207,6 +207,9 @@
             this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -219,27 +222,24 @@
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tableLayoutPanel6.SuspendLayout();
-            this.panel27.SuspendLayout();
-            this.panel28.SuspendLayout();
-            this.panel29.SuspendLayout();
-            this.panel30.SuspendLayout();
-            this.panel31.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.panel22.SuspendLayout();
-            this.panel23.SuspendLayout();
-            this.panel24.SuspendLayout();
-            this.panel25.SuspendLayout();
-            this.panel26.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel19.SuspendLayout();
             this.panel20.SuspendLayout();
             this.panel21.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.panel22.SuspendLayout();
+            this.panel23.SuspendLayout();
+            this.panel24.SuspendLayout();
+            this.panel25.SuspendLayout();
+            this.panel26.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
+            this.panel27.SuspendLayout();
+            this.panel28.SuspendLayout();
+            this.panel29.SuspendLayout();
+            this.panel30.SuspendLayout();
+            this.panel31.SuspendLayout();
             this.SuspendLayout();
             // 
             // Eastern
@@ -257,9 +257,9 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.tableLayoutPanel3);
-            this.tabPage1.Controls.Add(this.tableLayoutPanel1);
             this.tabPage1.Controls.Add(this.tableLayoutPanel2);
+            this.tabPage1.Controls.Add(this.tableLayoutPanel1);
+            this.tabPage1.Controls.Add(this.tableLayoutPanel3);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage1.Name = "tabPage1";
@@ -274,14 +274,14 @@
             this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 441F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.Controls.Add(this.panel12, 0, 5);
             this.tableLayoutPanel3.Controls.Add(this.panel13, 0, 4);
             this.tableLayoutPanel3.Controls.Add(this.panel14, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.panel15, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.panel16, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.textBox4, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(-4, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 6;
@@ -291,7 +291,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(354, 659);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(371, 669);
             this.tableLayoutPanel3.TabIndex = 3;
             // 
             // panel12
@@ -302,9 +302,9 @@
             this.panel12.Controls.Add(this.button44);
             this.panel12.Controls.Add(this.button45);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel12.Location = new System.Drawing.Point(3, 533);
+            this.panel12.Location = new System.Drawing.Point(3, 541);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(435, 123);
+            this.panel12.Size = new System.Drawing.Size(365, 125);
             this.panel12.TabIndex = 7;
             // 
             // button42
@@ -375,9 +375,9 @@
             this.panel13.Controls.Add(this.button48);
             this.panel13.Controls.Add(this.button49);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel13.Location = new System.Drawing.Point(3, 406);
+            this.panel13.Location = new System.Drawing.Point(3, 412);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(435, 121);
+            this.panel13.Size = new System.Drawing.Size(365, 123);
             this.panel13.TabIndex = 6;
             // 
             // button46
@@ -448,9 +448,9 @@
             this.panel14.Controls.Add(this.button52);
             this.panel14.Controls.Add(this.button53);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel14.Location = new System.Drawing.Point(3, 279);
+            this.panel14.Location = new System.Drawing.Point(3, 283);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(435, 121);
+            this.panel14.Size = new System.Drawing.Size(365, 123);
             this.panel14.TabIndex = 5;
             // 
             // button50
@@ -521,9 +521,9 @@
             this.panel15.Controls.Add(this.button56);
             this.panel15.Controls.Add(this.button57);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel15.Location = new System.Drawing.Point(3, 152);
+            this.panel15.Location = new System.Drawing.Point(3, 154);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(435, 121);
+            this.panel15.Size = new System.Drawing.Size(365, 123);
             this.panel15.TabIndex = 4;
             // 
             // button54
@@ -596,7 +596,7 @@
             this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel16.Location = new System.Drawing.Point(3, 25);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(435, 121);
+            this.panel16.Size = new System.Drawing.Size(365, 123);
             this.panel16.TabIndex = 1;
             // 
             // button58
@@ -662,28 +662,107 @@
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox4.Location = new System.Drawing.Point(0, 0);
             this.textBox4.Margin = new System.Windows.Forms.Padding(0);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(441, 22);
+            this.textBox4.Size = new System.Drawing.Size(371, 22);
             this.textBox4.TabIndex = 3;
-            this.textBox4.Text = "Central";
+            this.textBox4.Text = "Atlantic";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.tableLayoutPanel6);
+            this.tabPage2.Controls.Add(this.tableLayoutPanel5);
+            this.tabPage2.Controls.Add(this.tableLayoutPanel4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1291, 668);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Western";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.AutoSize = true;
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1330, 66);
+            this.panel2.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::lab1.Properties.Resources.nbalogo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 63);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.AutoSize = true;
+            this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button5.Location = new System.Drawing.Point(1171, 24);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(48, 26);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "Back";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(51, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 19);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "NBA Management system";
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1330, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Visitor menu";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.textBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBox2.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.textBox2.Location = new System.Drawing.Point(0, 773);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(1330, 22);
+            this.textBox2.TabIndex = 8;
+            this.textBox2.Text = "The current season is 2016-2017, NBA already has a history of 71 years.";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 441F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 5);
             this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel6, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(927, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(461, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
@@ -693,8 +772,8 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(364, 659);
-            this.tableLayoutPanel1.TabIndex = 2;
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(371, 669);
+            this.tableLayoutPanel1.TabIndex = 4;
             // 
             // panel1
             // 
@@ -704,9 +783,9 @@
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 533);
+            this.panel1.Location = new System.Drawing.Point(3, 541);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(435, 123);
+            this.panel1.Size = new System.Drawing.Size(365, 125);
             this.panel1.TabIndex = 7;
             // 
             // button1
@@ -777,9 +856,9 @@
             this.panel3.Controls.Add(this.button8);
             this.panel3.Controls.Add(this.button9);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 406);
+            this.panel3.Location = new System.Drawing.Point(3, 412);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(435, 121);
+            this.panel3.Size = new System.Drawing.Size(365, 123);
             this.panel3.TabIndex = 6;
             // 
             // button6
@@ -850,9 +929,9 @@
             this.panel4.Controls.Add(this.button12);
             this.panel4.Controls.Add(this.button13);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 279);
+            this.panel4.Location = new System.Drawing.Point(3, 283);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(435, 121);
+            this.panel4.Size = new System.Drawing.Size(365, 123);
             this.panel4.TabIndex = 5;
             // 
             // button10
@@ -923,9 +1002,9 @@
             this.panel5.Controls.Add(this.button16);
             this.panel5.Controls.Add(this.button17);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 152);
+            this.panel5.Location = new System.Drawing.Point(3, 154);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(435, 121);
+            this.panel5.Size = new System.Drawing.Size(365, 123);
             this.panel5.TabIndex = 4;
             // 
             // button14
@@ -990,7 +1069,7 @@
             // 
             // panel6
             // 
-            this.panel6.AutoSize = true;
+            this.panel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel6.Controls.Add(this.button18);
             this.panel6.Controls.Add(this.button19);
             this.panel6.Controls.Add(this.button20);
@@ -998,7 +1077,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(3, 25);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(435, 121);
+            this.panel6.Size = new System.Drawing.Size(365, 123);
             this.panel6.TabIndex = 1;
             // 
             // button18
@@ -1064,11 +1143,10 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Location = new System.Drawing.Point(0, 0);
             this.textBox1.Margin = new System.Windows.Forms.Padding(0);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(441, 22);
+            this.textBox1.Size = new System.Drawing.Size(371, 22);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "Central";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1078,14 +1156,14 @@
             this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 441F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Controls.Add(this.panel7, 0, 5);
             this.tableLayoutPanel2.Controls.Add(this.panel8, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.panel9, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.panel10, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.panel11, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.textBox3, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(437, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(924, 0);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 6;
@@ -1095,8 +1173,8 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(400, 659);
-            this.tableLayoutPanel2.TabIndex = 1;
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(371, 669);
+            this.tableLayoutPanel2.TabIndex = 5;
             // 
             // panel7
             // 
@@ -1106,9 +1184,9 @@
             this.panel7.Controls.Add(this.button24);
             this.panel7.Controls.Add(this.button25);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(3, 533);
+            this.panel7.Location = new System.Drawing.Point(3, 541);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(435, 123);
+            this.panel7.Size = new System.Drawing.Size(365, 125);
             this.panel7.TabIndex = 7;
             // 
             // button22
@@ -1179,9 +1257,9 @@
             this.panel8.Controls.Add(this.button28);
             this.panel8.Controls.Add(this.button29);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(3, 406);
+            this.panel8.Location = new System.Drawing.Point(3, 412);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(435, 121);
+            this.panel8.Size = new System.Drawing.Size(365, 123);
             this.panel8.TabIndex = 6;
             // 
             // button26
@@ -1252,9 +1330,9 @@
             this.panel9.Controls.Add(this.button32);
             this.panel9.Controls.Add(this.button33);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(3, 279);
+            this.panel9.Location = new System.Drawing.Point(3, 283);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(435, 121);
+            this.panel9.Size = new System.Drawing.Size(365, 123);
             this.panel9.TabIndex = 5;
             // 
             // button30
@@ -1325,9 +1403,9 @@
             this.panel10.Controls.Add(this.button36);
             this.panel10.Controls.Add(this.button37);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel10.Location = new System.Drawing.Point(3, 152);
+            this.panel10.Location = new System.Drawing.Point(3, 154);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(435, 121);
+            this.panel10.Size = new System.Drawing.Size(365, 123);
             this.panel10.TabIndex = 4;
             // 
             // button34
@@ -1392,7 +1470,7 @@
             // 
             // panel11
             // 
-            this.panel11.AutoSize = true;
+            this.panel11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel11.Controls.Add(this.button38);
             this.panel11.Controls.Add(this.button39);
             this.panel11.Controls.Add(this.button40);
@@ -1400,7 +1478,7 @@
             this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel11.Location = new System.Drawing.Point(3, 25);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(435, 121);
+            this.panel11.Size = new System.Drawing.Size(365, 123);
             this.panel11.TabIndex = 1;
             // 
             // button38
@@ -1466,841 +1544,28 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox3.Location = new System.Drawing.Point(0, 0);
             this.textBox3.Margin = new System.Windows.Forms.Padding(0);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(441, 22);
+            this.textBox3.Size = new System.Drawing.Size(371, 22);
             this.textBox3.TabIndex = 3;
-            this.textBox3.Text = "Central";
+            this.textBox3.Text = "Southeast";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.tableLayoutPanel6);
-            this.tabPage2.Controls.Add(this.tableLayoutPanel5);
-            this.tabPage2.Controls.Add(this.tableLayoutPanel4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1291, 668);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Western";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel6
-            // 
-            this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.tableLayoutPanel6.ColumnCount = 1;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 448F));
-            this.tableLayoutPanel6.Controls.Add(this.panel27, 0, 5);
-            this.tableLayoutPanel6.Controls.Add(this.panel28, 0, 4);
-            this.tableLayoutPanel6.Controls.Add(this.panel29, 0, 3);
-            this.tableLayoutPanel6.Controls.Add(this.panel30, 0, 2);
-            this.tableLayoutPanel6.Controls.Add(this.panel31, 0, 1);
-            this.tableLayoutPanel6.Controls.Add(this.textBox7, 0, 0);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(33, 3);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 6;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(448, 662);
-            this.tableLayoutPanel6.TabIndex = 5;
-            // 
-            // panel27
-            // 
-            this.panel27.AutoSize = true;
-            this.panel27.Controls.Add(this.button102);
-            this.panel27.Controls.Add(this.button103);
-            this.panel27.Controls.Add(this.button104);
-            this.panel27.Controls.Add(this.button105);
-            this.panel27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel27.Location = new System.Drawing.Point(3, 537);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(442, 122);
-            this.panel27.TabIndex = 7;
-            // 
-            // button102
-            // 
-            this.button102.BackColor = System.Drawing.Color.Transparent;
-            this.button102.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button102.FlatAppearance.BorderSize = 0;
-            this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button102.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button102.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button102.Location = new System.Drawing.Point(223, 58);
-            this.button102.Name = "button102";
-            this.button102.Size = new System.Drawing.Size(90, 23);
-            this.button102.TabIndex = 3;
-            this.button102.Text = "First Lineup";
-            this.button102.UseVisualStyleBackColor = false;
-            // 
-            // button103
-            // 
-            this.button103.BackColor = System.Drawing.Color.Transparent;
-            this.button103.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button103.FlatAppearance.BorderSize = 0;
-            this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button103.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button103.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button103.Location = new System.Drawing.Point(150, 58);
-            this.button103.Name = "button103";
-            this.button103.Size = new System.Drawing.Size(78, 23);
-            this.button103.TabIndex = 2;
-            this.button103.Text = "Matchup";
-            this.button103.UseVisualStyleBackColor = false;
-            // 
-            // button104
-            // 
-            this.button104.BackColor = System.Drawing.Color.Transparent;
-            this.button104.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button104.FlatAppearance.BorderSize = 0;
-            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button104.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button104.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button104.Location = new System.Drawing.Point(80, 58);
-            this.button104.Name = "button104";
-            this.button104.Size = new System.Drawing.Size(64, 23);
-            this.button104.TabIndex = 1;
-            this.button104.Text = "Roster";
-            this.button104.UseVisualStyleBackColor = false;
-            // 
-            // button105
-            // 
-            this.button105.BackColor = System.Drawing.Color.Transparent;
-            this.button105.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button105.FlatAppearance.BorderSize = 0;
-            this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button105.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button105.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button105.Location = new System.Drawing.Point(90, 18);
-            this.button105.Name = "button105";
-            this.button105.Size = new System.Drawing.Size(138, 23);
-            this.button105.TabIndex = 0;
-            this.button105.Text = "Team name";
-            this.button105.UseVisualStyleBackColor = false;
-            // 
-            // panel28
-            // 
-            this.panel28.AutoSize = true;
-            this.panel28.Controls.Add(this.button106);
-            this.panel28.Controls.Add(this.button107);
-            this.panel28.Controls.Add(this.button108);
-            this.panel28.Controls.Add(this.button109);
-            this.panel28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel28.Location = new System.Drawing.Point(3, 409);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(442, 122);
-            this.panel28.TabIndex = 6;
-            // 
-            // button106
-            // 
-            this.button106.BackColor = System.Drawing.Color.Transparent;
-            this.button106.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button106.FlatAppearance.BorderSize = 0;
-            this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button106.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button106.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button106.Location = new System.Drawing.Point(223, 58);
-            this.button106.Name = "button106";
-            this.button106.Size = new System.Drawing.Size(90, 23);
-            this.button106.TabIndex = 3;
-            this.button106.Text = "First Lineup";
-            this.button106.UseVisualStyleBackColor = false;
-            // 
-            // button107
-            // 
-            this.button107.BackColor = System.Drawing.Color.Transparent;
-            this.button107.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button107.FlatAppearance.BorderSize = 0;
-            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button107.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button107.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button107.Location = new System.Drawing.Point(150, 58);
-            this.button107.Name = "button107";
-            this.button107.Size = new System.Drawing.Size(78, 23);
-            this.button107.TabIndex = 2;
-            this.button107.Text = "Matchup";
-            this.button107.UseVisualStyleBackColor = false;
-            // 
-            // button108
-            // 
-            this.button108.BackColor = System.Drawing.Color.Transparent;
-            this.button108.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button108.FlatAppearance.BorderSize = 0;
-            this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button108.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button108.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button108.Location = new System.Drawing.Point(80, 58);
-            this.button108.Name = "button108";
-            this.button108.Size = new System.Drawing.Size(64, 23);
-            this.button108.TabIndex = 1;
-            this.button108.Text = "Roster";
-            this.button108.UseVisualStyleBackColor = false;
-            // 
-            // button109
-            // 
-            this.button109.BackColor = System.Drawing.Color.Transparent;
-            this.button109.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button109.FlatAppearance.BorderSize = 0;
-            this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button109.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button109.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button109.Location = new System.Drawing.Point(90, 18);
-            this.button109.Name = "button109";
-            this.button109.Size = new System.Drawing.Size(138, 23);
-            this.button109.TabIndex = 0;
-            this.button109.Text = "Team name";
-            this.button109.UseVisualStyleBackColor = false;
-            // 
-            // panel29
-            // 
-            this.panel29.AutoSize = true;
-            this.panel29.Controls.Add(this.button110);
-            this.panel29.Controls.Add(this.button111);
-            this.panel29.Controls.Add(this.button112);
-            this.panel29.Controls.Add(this.button113);
-            this.panel29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel29.Location = new System.Drawing.Point(3, 281);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(442, 122);
-            this.panel29.TabIndex = 5;
-            // 
-            // button110
-            // 
-            this.button110.BackColor = System.Drawing.Color.Transparent;
-            this.button110.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button110.FlatAppearance.BorderSize = 0;
-            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button110.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button110.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button110.Location = new System.Drawing.Point(223, 58);
-            this.button110.Name = "button110";
-            this.button110.Size = new System.Drawing.Size(90, 23);
-            this.button110.TabIndex = 3;
-            this.button110.Text = "First Lineup";
-            this.button110.UseVisualStyleBackColor = false;
-            // 
-            // button111
-            // 
-            this.button111.BackColor = System.Drawing.Color.Transparent;
-            this.button111.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button111.FlatAppearance.BorderSize = 0;
-            this.button111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button111.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button111.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button111.Location = new System.Drawing.Point(150, 58);
-            this.button111.Name = "button111";
-            this.button111.Size = new System.Drawing.Size(78, 23);
-            this.button111.TabIndex = 2;
-            this.button111.Text = "Matchup";
-            this.button111.UseVisualStyleBackColor = false;
-            // 
-            // button112
-            // 
-            this.button112.BackColor = System.Drawing.Color.Transparent;
-            this.button112.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button112.FlatAppearance.BorderSize = 0;
-            this.button112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button112.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button112.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button112.Location = new System.Drawing.Point(80, 58);
-            this.button112.Name = "button112";
-            this.button112.Size = new System.Drawing.Size(64, 23);
-            this.button112.TabIndex = 1;
-            this.button112.Text = "Roster";
-            this.button112.UseVisualStyleBackColor = false;
-            // 
-            // button113
-            // 
-            this.button113.BackColor = System.Drawing.Color.Transparent;
-            this.button113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button113.FlatAppearance.BorderSize = 0;
-            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button113.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button113.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button113.Location = new System.Drawing.Point(90, 18);
-            this.button113.Name = "button113";
-            this.button113.Size = new System.Drawing.Size(138, 23);
-            this.button113.TabIndex = 0;
-            this.button113.Text = "Team name";
-            this.button113.UseVisualStyleBackColor = false;
-            // 
-            // panel30
-            // 
-            this.panel30.AutoSize = true;
-            this.panel30.Controls.Add(this.button114);
-            this.panel30.Controls.Add(this.button115);
-            this.panel30.Controls.Add(this.button116);
-            this.panel30.Controls.Add(this.button117);
-            this.panel30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel30.Location = new System.Drawing.Point(3, 153);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(442, 122);
-            this.panel30.TabIndex = 4;
-            // 
-            // button114
-            // 
-            this.button114.BackColor = System.Drawing.Color.Transparent;
-            this.button114.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button114.FlatAppearance.BorderSize = 0;
-            this.button114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button114.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button114.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button114.Location = new System.Drawing.Point(223, 58);
-            this.button114.Name = "button114";
-            this.button114.Size = new System.Drawing.Size(90, 23);
-            this.button114.TabIndex = 3;
-            this.button114.Text = "First Lineup";
-            this.button114.UseVisualStyleBackColor = false;
-            // 
-            // button115
-            // 
-            this.button115.BackColor = System.Drawing.Color.Transparent;
-            this.button115.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button115.FlatAppearance.BorderSize = 0;
-            this.button115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button115.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button115.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button115.Location = new System.Drawing.Point(150, 58);
-            this.button115.Name = "button115";
-            this.button115.Size = new System.Drawing.Size(78, 23);
-            this.button115.TabIndex = 2;
-            this.button115.Text = "Matchup";
-            this.button115.UseVisualStyleBackColor = false;
-            // 
-            // button116
-            // 
-            this.button116.BackColor = System.Drawing.Color.Transparent;
-            this.button116.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button116.FlatAppearance.BorderSize = 0;
-            this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button116.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button116.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button116.Location = new System.Drawing.Point(80, 58);
-            this.button116.Name = "button116";
-            this.button116.Size = new System.Drawing.Size(64, 23);
-            this.button116.TabIndex = 1;
-            this.button116.Text = "Roster";
-            this.button116.UseVisualStyleBackColor = false;
-            // 
-            // button117
-            // 
-            this.button117.BackColor = System.Drawing.Color.Transparent;
-            this.button117.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button117.FlatAppearance.BorderSize = 0;
-            this.button117.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button117.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button117.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button117.Location = new System.Drawing.Point(90, 18);
-            this.button117.Name = "button117";
-            this.button117.Size = new System.Drawing.Size(138, 23);
-            this.button117.TabIndex = 0;
-            this.button117.Text = "Team name";
-            this.button117.UseVisualStyleBackColor = false;
-            // 
-            // panel31
-            // 
-            this.panel31.AutoSize = true;
-            this.panel31.Controls.Add(this.button118);
-            this.panel31.Controls.Add(this.button119);
-            this.panel31.Controls.Add(this.button120);
-            this.panel31.Controls.Add(this.button121);
-            this.panel31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel31.Location = new System.Drawing.Point(3, 25);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(442, 122);
-            this.panel31.TabIndex = 1;
-            // 
-            // button118
-            // 
-            this.button118.BackColor = System.Drawing.Color.Transparent;
-            this.button118.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button118.FlatAppearance.BorderSize = 0;
-            this.button118.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button118.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button118.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button118.Location = new System.Drawing.Point(223, 58);
-            this.button118.Name = "button118";
-            this.button118.Size = new System.Drawing.Size(90, 23);
-            this.button118.TabIndex = 3;
-            this.button118.Text = "First Lineup";
-            this.button118.UseVisualStyleBackColor = false;
-            // 
-            // button119
-            // 
-            this.button119.BackColor = System.Drawing.Color.Transparent;
-            this.button119.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button119.FlatAppearance.BorderSize = 0;
-            this.button119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button119.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button119.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button119.Location = new System.Drawing.Point(150, 58);
-            this.button119.Name = "button119";
-            this.button119.Size = new System.Drawing.Size(78, 23);
-            this.button119.TabIndex = 2;
-            this.button119.Text = "Matchup";
-            this.button119.UseVisualStyleBackColor = false;
-            // 
-            // button120
-            // 
-            this.button120.BackColor = System.Drawing.Color.Transparent;
-            this.button120.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button120.FlatAppearance.BorderSize = 0;
-            this.button120.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button120.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button120.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button120.Location = new System.Drawing.Point(80, 58);
-            this.button120.Name = "button120";
-            this.button120.Size = new System.Drawing.Size(64, 23);
-            this.button120.TabIndex = 1;
-            this.button120.Text = "Roster";
-            this.button120.UseVisualStyleBackColor = false;
-            // 
-            // button121
-            // 
-            this.button121.BackColor = System.Drawing.Color.Transparent;
-            this.button121.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button121.FlatAppearance.BorderSize = 0;
-            this.button121.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button121.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button121.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button121.Location = new System.Drawing.Point(90, 18);
-            this.button121.Name = "button121";
-            this.button121.Size = new System.Drawing.Size(138, 23);
-            this.button121.TabIndex = 0;
-            this.button121.Text = "Team name";
-            this.button121.UseVisualStyleBackColor = false;
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox7.Location = new System.Drawing.Point(0, 0);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(448, 22);
-            this.textBox7.TabIndex = 3;
-            this.textBox7.Text = "Northwest";
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 1;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
-            this.tableLayoutPanel5.Controls.Add(this.panel22, 0, 5);
-            this.tableLayoutPanel5.Controls.Add(this.panel23, 0, 4);
-            this.tableLayoutPanel5.Controls.Add(this.panel24, 0, 3);
-            this.tableLayoutPanel5.Controls.Add(this.panel25, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.panel26, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox6, 0, 0);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(481, 3);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 6;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(394, 662);
-            this.tableLayoutPanel5.TabIndex = 4;
-            // 
-            // panel22
-            // 
-            this.panel22.AutoSize = true;
-            this.panel22.Controls.Add(this.button82);
-            this.panel22.Controls.Add(this.button83);
-            this.panel22.Controls.Add(this.button84);
-            this.panel22.Controls.Add(this.button85);
-            this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel22.Location = new System.Drawing.Point(3, 537);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(394, 122);
-            this.panel22.TabIndex = 7;
-            // 
-            // button82
-            // 
-            this.button82.BackColor = System.Drawing.Color.Transparent;
-            this.button82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button82.FlatAppearance.BorderSize = 0;
-            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button82.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button82.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button82.Location = new System.Drawing.Point(223, 58);
-            this.button82.Name = "button82";
-            this.button82.Size = new System.Drawing.Size(90, 23);
-            this.button82.TabIndex = 3;
-            this.button82.Text = "First Lineup";
-            this.button82.UseVisualStyleBackColor = false;
-            // 
-            // button83
-            // 
-            this.button83.BackColor = System.Drawing.Color.Transparent;
-            this.button83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button83.FlatAppearance.BorderSize = 0;
-            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button83.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button83.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button83.Location = new System.Drawing.Point(150, 58);
-            this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(78, 23);
-            this.button83.TabIndex = 2;
-            this.button83.Text = "Matchup";
-            this.button83.UseVisualStyleBackColor = false;
-            // 
-            // button84
-            // 
-            this.button84.BackColor = System.Drawing.Color.Transparent;
-            this.button84.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button84.FlatAppearance.BorderSize = 0;
-            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button84.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button84.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button84.Location = new System.Drawing.Point(80, 58);
-            this.button84.Name = "button84";
-            this.button84.Size = new System.Drawing.Size(64, 23);
-            this.button84.TabIndex = 1;
-            this.button84.Text = "Roster";
-            this.button84.UseVisualStyleBackColor = false;
-            // 
-            // button85
-            // 
-            this.button85.BackColor = System.Drawing.Color.Transparent;
-            this.button85.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button85.FlatAppearance.BorderSize = 0;
-            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button85.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button85.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button85.Location = new System.Drawing.Point(90, 18);
-            this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(138, 23);
-            this.button85.TabIndex = 0;
-            this.button85.Text = "Team name";
-            this.button85.UseVisualStyleBackColor = false;
-            // 
-            // panel23
-            // 
-            this.panel23.AutoSize = true;
-            this.panel23.Controls.Add(this.button86);
-            this.panel23.Controls.Add(this.button87);
-            this.panel23.Controls.Add(this.button88);
-            this.panel23.Controls.Add(this.button89);
-            this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel23.Location = new System.Drawing.Point(3, 409);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(394, 122);
-            this.panel23.TabIndex = 6;
-            // 
-            // button86
-            // 
-            this.button86.BackColor = System.Drawing.Color.Transparent;
-            this.button86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button86.FlatAppearance.BorderSize = 0;
-            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button86.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button86.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button86.Location = new System.Drawing.Point(223, 58);
-            this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(90, 23);
-            this.button86.TabIndex = 3;
-            this.button86.Text = "First Lineup";
-            this.button86.UseVisualStyleBackColor = false;
-            // 
-            // button87
-            // 
-            this.button87.BackColor = System.Drawing.Color.Transparent;
-            this.button87.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button87.FlatAppearance.BorderSize = 0;
-            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button87.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button87.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button87.Location = new System.Drawing.Point(150, 58);
-            this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(78, 23);
-            this.button87.TabIndex = 2;
-            this.button87.Text = "Matchup";
-            this.button87.UseVisualStyleBackColor = false;
-            // 
-            // button88
-            // 
-            this.button88.BackColor = System.Drawing.Color.Transparent;
-            this.button88.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button88.FlatAppearance.BorderSize = 0;
-            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button88.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button88.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button88.Location = new System.Drawing.Point(80, 58);
-            this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(64, 23);
-            this.button88.TabIndex = 1;
-            this.button88.Text = "Roster";
-            this.button88.UseVisualStyleBackColor = false;
-            // 
-            // button89
-            // 
-            this.button89.BackColor = System.Drawing.Color.Transparent;
-            this.button89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button89.FlatAppearance.BorderSize = 0;
-            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button89.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button89.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button89.Location = new System.Drawing.Point(90, 18);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(138, 23);
-            this.button89.TabIndex = 0;
-            this.button89.Text = "Team name";
-            this.button89.UseVisualStyleBackColor = false;
-            // 
-            // panel24
-            // 
-            this.panel24.AutoSize = true;
-            this.panel24.Controls.Add(this.button90);
-            this.panel24.Controls.Add(this.button91);
-            this.panel24.Controls.Add(this.button92);
-            this.panel24.Controls.Add(this.button93);
-            this.panel24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel24.Location = new System.Drawing.Point(3, 281);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(394, 122);
-            this.panel24.TabIndex = 5;
-            // 
-            // button90
-            // 
-            this.button90.BackColor = System.Drawing.Color.Transparent;
-            this.button90.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button90.FlatAppearance.BorderSize = 0;
-            this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button90.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button90.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button90.Location = new System.Drawing.Point(223, 58);
-            this.button90.Name = "button90";
-            this.button90.Size = new System.Drawing.Size(90, 23);
-            this.button90.TabIndex = 3;
-            this.button90.Text = "First Lineup";
-            this.button90.UseVisualStyleBackColor = false;
-            // 
-            // button91
-            // 
-            this.button91.BackColor = System.Drawing.Color.Transparent;
-            this.button91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button91.FlatAppearance.BorderSize = 0;
-            this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button91.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button91.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button91.Location = new System.Drawing.Point(150, 58);
-            this.button91.Name = "button91";
-            this.button91.Size = new System.Drawing.Size(78, 23);
-            this.button91.TabIndex = 2;
-            this.button91.Text = "Matchup";
-            this.button91.UseVisualStyleBackColor = false;
-            // 
-            // button92
-            // 
-            this.button92.BackColor = System.Drawing.Color.Transparent;
-            this.button92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button92.FlatAppearance.BorderSize = 0;
-            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button92.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button92.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button92.Location = new System.Drawing.Point(80, 58);
-            this.button92.Name = "button92";
-            this.button92.Size = new System.Drawing.Size(64, 23);
-            this.button92.TabIndex = 1;
-            this.button92.Text = "Roster";
-            this.button92.UseVisualStyleBackColor = false;
-            // 
-            // button93
-            // 
-            this.button93.BackColor = System.Drawing.Color.Transparent;
-            this.button93.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button93.FlatAppearance.BorderSize = 0;
-            this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button93.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button93.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button93.Location = new System.Drawing.Point(90, 18);
-            this.button93.Name = "button93";
-            this.button93.Size = new System.Drawing.Size(138, 23);
-            this.button93.TabIndex = 0;
-            this.button93.Text = "Team name";
-            this.button93.UseVisualStyleBackColor = false;
-            // 
-            // panel25
-            // 
-            this.panel25.AutoSize = true;
-            this.panel25.Controls.Add(this.button94);
-            this.panel25.Controls.Add(this.button95);
-            this.panel25.Controls.Add(this.button96);
-            this.panel25.Controls.Add(this.button97);
-            this.panel25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel25.Location = new System.Drawing.Point(3, 153);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(394, 122);
-            this.panel25.TabIndex = 4;
-            // 
-            // button94
-            // 
-            this.button94.BackColor = System.Drawing.Color.Transparent;
-            this.button94.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button94.FlatAppearance.BorderSize = 0;
-            this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button94.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button94.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button94.Location = new System.Drawing.Point(223, 58);
-            this.button94.Name = "button94";
-            this.button94.Size = new System.Drawing.Size(90, 23);
-            this.button94.TabIndex = 3;
-            this.button94.Text = "First Lineup";
-            this.button94.UseVisualStyleBackColor = false;
-            // 
-            // button95
-            // 
-            this.button95.BackColor = System.Drawing.Color.Transparent;
-            this.button95.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button95.FlatAppearance.BorderSize = 0;
-            this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button95.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button95.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button95.Location = new System.Drawing.Point(150, 58);
-            this.button95.Name = "button95";
-            this.button95.Size = new System.Drawing.Size(78, 23);
-            this.button95.TabIndex = 2;
-            this.button95.Text = "Matchup";
-            this.button95.UseVisualStyleBackColor = false;
-            // 
-            // button96
-            // 
-            this.button96.BackColor = System.Drawing.Color.Transparent;
-            this.button96.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button96.FlatAppearance.BorderSize = 0;
-            this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button96.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button96.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button96.Location = new System.Drawing.Point(80, 58);
-            this.button96.Name = "button96";
-            this.button96.Size = new System.Drawing.Size(64, 23);
-            this.button96.TabIndex = 1;
-            this.button96.Text = "Roster";
-            this.button96.UseVisualStyleBackColor = false;
-            // 
-            // button97
-            // 
-            this.button97.BackColor = System.Drawing.Color.Transparent;
-            this.button97.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button97.FlatAppearance.BorderSize = 0;
-            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button97.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button97.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button97.Location = new System.Drawing.Point(90, 18);
-            this.button97.Name = "button97";
-            this.button97.Size = new System.Drawing.Size(138, 23);
-            this.button97.TabIndex = 0;
-            this.button97.Text = "Team name";
-            this.button97.UseVisualStyleBackColor = false;
-            // 
-            // panel26
-            // 
-            this.panel26.AutoSize = true;
-            this.panel26.Controls.Add(this.button98);
-            this.panel26.Controls.Add(this.button99);
-            this.panel26.Controls.Add(this.button100);
-            this.panel26.Controls.Add(this.button101);
-            this.panel26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel26.Location = new System.Drawing.Point(3, 25);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(394, 122);
-            this.panel26.TabIndex = 1;
-            // 
-            // button98
-            // 
-            this.button98.BackColor = System.Drawing.Color.Transparent;
-            this.button98.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button98.FlatAppearance.BorderSize = 0;
-            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button98.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button98.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button98.Location = new System.Drawing.Point(223, 58);
-            this.button98.Name = "button98";
-            this.button98.Size = new System.Drawing.Size(90, 23);
-            this.button98.TabIndex = 3;
-            this.button98.Text = "First Lineup";
-            this.button98.UseVisualStyleBackColor = false;
-            // 
-            // button99
-            // 
-            this.button99.BackColor = System.Drawing.Color.Transparent;
-            this.button99.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button99.FlatAppearance.BorderSize = 0;
-            this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button99.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button99.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button99.Location = new System.Drawing.Point(150, 58);
-            this.button99.Name = "button99";
-            this.button99.Size = new System.Drawing.Size(78, 23);
-            this.button99.TabIndex = 2;
-            this.button99.Text = "Matchup";
-            this.button99.UseVisualStyleBackColor = false;
-            // 
-            // button100
-            // 
-            this.button100.BackColor = System.Drawing.Color.Transparent;
-            this.button100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button100.FlatAppearance.BorderSize = 0;
-            this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button100.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button100.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button100.Location = new System.Drawing.Point(80, 58);
-            this.button100.Name = "button100";
-            this.button100.Size = new System.Drawing.Size(64, 23);
-            this.button100.TabIndex = 1;
-            this.button100.Text = "Roster";
-            this.button100.UseVisualStyleBackColor = false;
-            // 
-            // button101
-            // 
-            this.button101.BackColor = System.Drawing.Color.Transparent;
-            this.button101.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button101.FlatAppearance.BorderSize = 0;
-            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button101.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button101.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button101.Location = new System.Drawing.Point(90, 18);
-            this.button101.Name = "button101";
-            this.button101.Size = new System.Drawing.Size(138, 23);
-            this.button101.TabIndex = 0;
-            this.button101.Text = "Team name";
-            this.button101.UseVisualStyleBackColor = false;
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox6.Location = new System.Drawing.Point(0, 0);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(400, 22);
-            this.textBox6.TabIndex = 3;
-            this.textBox6.Text = "Pacific";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tableLayoutPanel4
             // 
+            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel4.ColumnCount = 1;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 413F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Controls.Add(this.panel17, 0, 5);
             this.tableLayoutPanel4.Controls.Add(this.panel18, 0, 4);
             this.tableLayoutPanel4.Controls.Add(this.panel19, 0, 3);
             this.tableLayoutPanel4.Controls.Add(this.panel20, 0, 2);
             this.tableLayoutPanel4.Controls.Add(this.panel21, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.textBox5, 0, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(875, 3);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 0);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 6;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -2309,20 +1574,21 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(413, 662);
-            this.tableLayoutPanel4.TabIndex = 3;
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(371, 656);
+            this.tableLayoutPanel4.TabIndex = 4;
             // 
             // panel17
             // 
             this.panel17.AutoSize = true;
+            this.panel17.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel17.Controls.Add(this.button62);
             this.panel17.Controls.Add(this.button63);
             this.panel17.Controls.Add(this.button64);
             this.panel17.Controls.Add(this.button65);
             this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel17.Location = new System.Drawing.Point(3, 537);
+            this.panel17.Location = new System.Drawing.Point(3, 533);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(407, 122);
+            this.panel17.Size = new System.Drawing.Size(365, 123);
             this.panel17.TabIndex = 7;
             // 
             // button62
@@ -2393,9 +1659,9 @@
             this.panel18.Controls.Add(this.button68);
             this.panel18.Controls.Add(this.button69);
             this.panel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel18.Location = new System.Drawing.Point(3, 409);
+            this.panel18.Location = new System.Drawing.Point(3, 406);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(407, 122);
+            this.panel18.Size = new System.Drawing.Size(365, 121);
             this.panel18.TabIndex = 6;
             // 
             // button66
@@ -2466,9 +1732,9 @@
             this.panel19.Controls.Add(this.button72);
             this.panel19.Controls.Add(this.button73);
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel19.Location = new System.Drawing.Point(3, 281);
+            this.panel19.Location = new System.Drawing.Point(3, 279);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(407, 122);
+            this.panel19.Size = new System.Drawing.Size(365, 121);
             this.panel19.TabIndex = 5;
             // 
             // button70
@@ -2539,9 +1805,9 @@
             this.panel20.Controls.Add(this.button76);
             this.panel20.Controls.Add(this.button77);
             this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel20.Location = new System.Drawing.Point(3, 153);
+            this.panel20.Location = new System.Drawing.Point(3, 152);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(407, 122);
+            this.panel20.Size = new System.Drawing.Size(365, 121);
             this.panel20.TabIndex = 4;
             // 
             // button74
@@ -2606,7 +1872,7 @@
             // 
             // panel21
             // 
-            this.panel21.AutoSize = true;
+            this.panel21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel21.Controls.Add(this.button78);
             this.panel21.Controls.Add(this.button79);
             this.panel21.Controls.Add(this.button80);
@@ -2614,7 +1880,7 @@
             this.panel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel21.Location = new System.Drawing.Point(3, 25);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(407, 122);
+            this.panel21.Size = new System.Drawing.Size(365, 121);
             this.panel21.TabIndex = 1;
             // 
             // button78
@@ -2680,81 +1946,815 @@
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox5.Location = new System.Drawing.Point(0, 0);
             this.textBox5.Margin = new System.Windows.Forms.Padding(0);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(413, 22);
+            this.textBox5.Size = new System.Drawing.Size(371, 22);
             this.textBox5.TabIndex = 3;
-            this.textBox5.Text = "Southwest";
+            this.textBox5.Text = "Northwest";
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // panel2
+            // tableLayoutPanel5
             // 
-            this.panel2.AutoSize = true;
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1330, 66);
-            this.panel2.TabIndex = 2;
+            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel5.ColumnCount = 1;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.Controls.Add(this.panel22, 0, 5);
+            this.tableLayoutPanel5.Controls.Add(this.panel23, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.panel24, 0, 3);
+            this.tableLayoutPanel5.Controls.Add(this.panel25, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.panel26, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.textBox6, 0, 0);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(462, 0);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 6;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(371, 669);
+            this.tableLayoutPanel5.TabIndex = 5;
             // 
-            // pictureBox1
+            // panel22
             // 
-            this.pictureBox1.Image = global::lab1.Properties.Resources.nbalogo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 63);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.panel22.AutoSize = true;
+            this.panel22.Controls.Add(this.button82);
+            this.panel22.Controls.Add(this.button83);
+            this.panel22.Controls.Add(this.button84);
+            this.panel22.Controls.Add(this.button85);
+            this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel22.Location = new System.Drawing.Point(3, 533);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(365, 123);
+            this.panel22.TabIndex = 7;
             // 
-            // button5
+            // button82
             // 
-            this.button5.AutoSize = true;
-            this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button5.Location = new System.Drawing.Point(1171, 24);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(48, 26);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Back";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button82.BackColor = System.Drawing.Color.Transparent;
+            this.button82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button82.FlatAppearance.BorderSize = 0;
+            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button82.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button82.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button82.Location = new System.Drawing.Point(223, 58);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(90, 23);
+            this.button82.TabIndex = 3;
+            this.button82.Text = "First Lineup";
+            this.button82.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // button83
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(51, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 19);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "NBA Management system";
+            this.button83.BackColor = System.Drawing.Color.Transparent;
+            this.button83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button83.FlatAppearance.BorderSize = 0;
+            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button83.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button83.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button83.Location = new System.Drawing.Point(150, 58);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(78, 23);
+            this.button83.TabIndex = 2;
+            this.button83.Text = "Matchup";
+            this.button83.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // button84
             // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1330, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Visitor menu";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button84.BackColor = System.Drawing.Color.Transparent;
+            this.button84.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button84.FlatAppearance.BorderSize = 0;
+            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button84.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button84.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button84.Location = new System.Drawing.Point(80, 58);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(64, 23);
+            this.button84.TabIndex = 1;
+            this.button84.Text = "Roster";
+            this.button84.UseVisualStyleBackColor = false;
             // 
-            // textBox2
+            // button85
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox2.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox2.Location = new System.Drawing.Point(0, 773);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1330, 22);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.Text = "The current season is 2016-2017, NBA already has a history of 71 years.";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.button85.BackColor = System.Drawing.Color.Transparent;
+            this.button85.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button85.FlatAppearance.BorderSize = 0;
+            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button85.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button85.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button85.Location = new System.Drawing.Point(90, 18);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(138, 23);
+            this.button85.TabIndex = 0;
+            this.button85.Text = "Team name";
+            this.button85.UseVisualStyleBackColor = false;
+            // 
+            // panel23
+            // 
+            this.panel23.AutoSize = true;
+            this.panel23.Controls.Add(this.button86);
+            this.panel23.Controls.Add(this.button87);
+            this.panel23.Controls.Add(this.button88);
+            this.panel23.Controls.Add(this.button89);
+            this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel23.Location = new System.Drawing.Point(3, 406);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(365, 121);
+            this.panel23.TabIndex = 6;
+            // 
+            // button86
+            // 
+            this.button86.BackColor = System.Drawing.Color.Transparent;
+            this.button86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button86.FlatAppearance.BorderSize = 0;
+            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button86.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button86.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button86.Location = new System.Drawing.Point(223, 58);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(90, 23);
+            this.button86.TabIndex = 3;
+            this.button86.Text = "First Lineup";
+            this.button86.UseVisualStyleBackColor = false;
+            // 
+            // button87
+            // 
+            this.button87.BackColor = System.Drawing.Color.Transparent;
+            this.button87.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button87.FlatAppearance.BorderSize = 0;
+            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button87.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button87.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button87.Location = new System.Drawing.Point(150, 58);
+            this.button87.Name = "button87";
+            this.button87.Size = new System.Drawing.Size(78, 23);
+            this.button87.TabIndex = 2;
+            this.button87.Text = "Matchup";
+            this.button87.UseVisualStyleBackColor = false;
+            // 
+            // button88
+            // 
+            this.button88.BackColor = System.Drawing.Color.Transparent;
+            this.button88.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button88.FlatAppearance.BorderSize = 0;
+            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button88.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button88.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button88.Location = new System.Drawing.Point(80, 58);
+            this.button88.Name = "button88";
+            this.button88.Size = new System.Drawing.Size(64, 23);
+            this.button88.TabIndex = 1;
+            this.button88.Text = "Roster";
+            this.button88.UseVisualStyleBackColor = false;
+            // 
+            // button89
+            // 
+            this.button89.BackColor = System.Drawing.Color.Transparent;
+            this.button89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button89.FlatAppearance.BorderSize = 0;
+            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button89.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button89.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button89.Location = new System.Drawing.Point(90, 18);
+            this.button89.Name = "button89";
+            this.button89.Size = new System.Drawing.Size(138, 23);
+            this.button89.TabIndex = 0;
+            this.button89.Text = "Team name";
+            this.button89.UseVisualStyleBackColor = false;
+            // 
+            // panel24
+            // 
+            this.panel24.AutoSize = true;
+            this.panel24.Controls.Add(this.button90);
+            this.panel24.Controls.Add(this.button91);
+            this.panel24.Controls.Add(this.button92);
+            this.panel24.Controls.Add(this.button93);
+            this.panel24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel24.Location = new System.Drawing.Point(3, 279);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(365, 121);
+            this.panel24.TabIndex = 5;
+            // 
+            // button90
+            // 
+            this.button90.BackColor = System.Drawing.Color.Transparent;
+            this.button90.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button90.FlatAppearance.BorderSize = 0;
+            this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button90.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button90.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button90.Location = new System.Drawing.Point(223, 58);
+            this.button90.Name = "button90";
+            this.button90.Size = new System.Drawing.Size(90, 23);
+            this.button90.TabIndex = 3;
+            this.button90.Text = "First Lineup";
+            this.button90.UseVisualStyleBackColor = false;
+            // 
+            // button91
+            // 
+            this.button91.BackColor = System.Drawing.Color.Transparent;
+            this.button91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button91.FlatAppearance.BorderSize = 0;
+            this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button91.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button91.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button91.Location = new System.Drawing.Point(150, 58);
+            this.button91.Name = "button91";
+            this.button91.Size = new System.Drawing.Size(78, 23);
+            this.button91.TabIndex = 2;
+            this.button91.Text = "Matchup";
+            this.button91.UseVisualStyleBackColor = false;
+            // 
+            // button92
+            // 
+            this.button92.BackColor = System.Drawing.Color.Transparent;
+            this.button92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button92.FlatAppearance.BorderSize = 0;
+            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button92.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button92.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button92.Location = new System.Drawing.Point(80, 58);
+            this.button92.Name = "button92";
+            this.button92.Size = new System.Drawing.Size(64, 23);
+            this.button92.TabIndex = 1;
+            this.button92.Text = "Roster";
+            this.button92.UseVisualStyleBackColor = false;
+            // 
+            // button93
+            // 
+            this.button93.BackColor = System.Drawing.Color.Transparent;
+            this.button93.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button93.FlatAppearance.BorderSize = 0;
+            this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button93.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button93.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button93.Location = new System.Drawing.Point(90, 18);
+            this.button93.Name = "button93";
+            this.button93.Size = new System.Drawing.Size(138, 23);
+            this.button93.TabIndex = 0;
+            this.button93.Text = "Team name";
+            this.button93.UseVisualStyleBackColor = false;
+            // 
+            // panel25
+            // 
+            this.panel25.AutoSize = true;
+            this.panel25.Controls.Add(this.button94);
+            this.panel25.Controls.Add(this.button95);
+            this.panel25.Controls.Add(this.button96);
+            this.panel25.Controls.Add(this.button97);
+            this.panel25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel25.Location = new System.Drawing.Point(3, 152);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(365, 121);
+            this.panel25.TabIndex = 4;
+            // 
+            // button94
+            // 
+            this.button94.BackColor = System.Drawing.Color.Transparent;
+            this.button94.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button94.FlatAppearance.BorderSize = 0;
+            this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button94.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button94.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button94.Location = new System.Drawing.Point(223, 58);
+            this.button94.Name = "button94";
+            this.button94.Size = new System.Drawing.Size(90, 23);
+            this.button94.TabIndex = 3;
+            this.button94.Text = "First Lineup";
+            this.button94.UseVisualStyleBackColor = false;
+            // 
+            // button95
+            // 
+            this.button95.BackColor = System.Drawing.Color.Transparent;
+            this.button95.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button95.FlatAppearance.BorderSize = 0;
+            this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button95.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button95.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button95.Location = new System.Drawing.Point(150, 58);
+            this.button95.Name = "button95";
+            this.button95.Size = new System.Drawing.Size(78, 23);
+            this.button95.TabIndex = 2;
+            this.button95.Text = "Matchup";
+            this.button95.UseVisualStyleBackColor = false;
+            // 
+            // button96
+            // 
+            this.button96.BackColor = System.Drawing.Color.Transparent;
+            this.button96.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button96.FlatAppearance.BorderSize = 0;
+            this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button96.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button96.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button96.Location = new System.Drawing.Point(80, 58);
+            this.button96.Name = "button96";
+            this.button96.Size = new System.Drawing.Size(64, 23);
+            this.button96.TabIndex = 1;
+            this.button96.Text = "Roster";
+            this.button96.UseVisualStyleBackColor = false;
+            // 
+            // button97
+            // 
+            this.button97.BackColor = System.Drawing.Color.Transparent;
+            this.button97.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button97.FlatAppearance.BorderSize = 0;
+            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button97.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button97.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button97.Location = new System.Drawing.Point(90, 18);
+            this.button97.Name = "button97";
+            this.button97.Size = new System.Drawing.Size(138, 23);
+            this.button97.TabIndex = 0;
+            this.button97.Text = "Team name";
+            this.button97.UseVisualStyleBackColor = false;
+            // 
+            // panel26
+            // 
+            this.panel26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel26.Controls.Add(this.button98);
+            this.panel26.Controls.Add(this.button99);
+            this.panel26.Controls.Add(this.button100);
+            this.panel26.Controls.Add(this.button101);
+            this.panel26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel26.Location = new System.Drawing.Point(3, 25);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(365, 121);
+            this.panel26.TabIndex = 1;
+            // 
+            // button98
+            // 
+            this.button98.BackColor = System.Drawing.Color.Transparent;
+            this.button98.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button98.FlatAppearance.BorderSize = 0;
+            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button98.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button98.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button98.Location = new System.Drawing.Point(223, 58);
+            this.button98.Name = "button98";
+            this.button98.Size = new System.Drawing.Size(90, 23);
+            this.button98.TabIndex = 3;
+            this.button98.Text = "First Lineup";
+            this.button98.UseVisualStyleBackColor = false;
+            // 
+            // button99
+            // 
+            this.button99.BackColor = System.Drawing.Color.Transparent;
+            this.button99.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button99.FlatAppearance.BorderSize = 0;
+            this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button99.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button99.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button99.Location = new System.Drawing.Point(150, 58);
+            this.button99.Name = "button99";
+            this.button99.Size = new System.Drawing.Size(78, 23);
+            this.button99.TabIndex = 2;
+            this.button99.Text = "Matchup";
+            this.button99.UseVisualStyleBackColor = false;
+            // 
+            // button100
+            // 
+            this.button100.BackColor = System.Drawing.Color.Transparent;
+            this.button100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button100.FlatAppearance.BorderSize = 0;
+            this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button100.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button100.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button100.Location = new System.Drawing.Point(80, 58);
+            this.button100.Name = "button100";
+            this.button100.Size = new System.Drawing.Size(64, 23);
+            this.button100.TabIndex = 1;
+            this.button100.Text = "Roster";
+            this.button100.UseVisualStyleBackColor = false;
+            // 
+            // button101
+            // 
+            this.button101.BackColor = System.Drawing.Color.Transparent;
+            this.button101.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button101.FlatAppearance.BorderSize = 0;
+            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button101.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button101.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button101.Location = new System.Drawing.Point(90, 18);
+            this.button101.Name = "button101";
+            this.button101.Size = new System.Drawing.Size(138, 23);
+            this.button101.TabIndex = 0;
+            this.button101.Text = "Team name";
+            this.button101.UseVisualStyleBackColor = false;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox6.Location = new System.Drawing.Point(0, 0);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(371, 22);
+            this.textBox6.TabIndex = 3;
+            this.textBox6.Text = "Pacific";
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tableLayoutPanel6
+            // 
+            this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel6.ColumnCount = 1;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel6.Controls.Add(this.panel27, 0, 5);
+            this.tableLayoutPanel6.Controls.Add(this.panel28, 0, 4);
+            this.tableLayoutPanel6.Controls.Add(this.panel29, 0, 3);
+            this.tableLayoutPanel6.Controls.Add(this.panel30, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.panel31, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.textBox7, 0, 0);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(920, 0);
+            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 6;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(371, 669);
+            this.tableLayoutPanel6.TabIndex = 6;
+            // 
+            // panel27
+            // 
+            this.panel27.AutoSize = true;
+            this.panel27.Controls.Add(this.button102);
+            this.panel27.Controls.Add(this.button103);
+            this.panel27.Controls.Add(this.button104);
+            this.panel27.Controls.Add(this.button105);
+            this.panel27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel27.Location = new System.Drawing.Point(3, 541);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(365, 125);
+            this.panel27.TabIndex = 7;
+            // 
+            // button102
+            // 
+            this.button102.BackColor = System.Drawing.Color.Transparent;
+            this.button102.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button102.FlatAppearance.BorderSize = 0;
+            this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button102.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button102.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button102.Location = new System.Drawing.Point(223, 58);
+            this.button102.Name = "button102";
+            this.button102.Size = new System.Drawing.Size(90, 23);
+            this.button102.TabIndex = 3;
+            this.button102.Text = "First Lineup";
+            this.button102.UseVisualStyleBackColor = false;
+            // 
+            // button103
+            // 
+            this.button103.BackColor = System.Drawing.Color.Transparent;
+            this.button103.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button103.FlatAppearance.BorderSize = 0;
+            this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button103.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button103.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button103.Location = new System.Drawing.Point(150, 58);
+            this.button103.Name = "button103";
+            this.button103.Size = new System.Drawing.Size(78, 23);
+            this.button103.TabIndex = 2;
+            this.button103.Text = "Matchup";
+            this.button103.UseVisualStyleBackColor = false;
+            // 
+            // button104
+            // 
+            this.button104.BackColor = System.Drawing.Color.Transparent;
+            this.button104.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button104.FlatAppearance.BorderSize = 0;
+            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button104.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button104.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button104.Location = new System.Drawing.Point(80, 58);
+            this.button104.Name = "button104";
+            this.button104.Size = new System.Drawing.Size(64, 23);
+            this.button104.TabIndex = 1;
+            this.button104.Text = "Roster";
+            this.button104.UseVisualStyleBackColor = false;
+            // 
+            // button105
+            // 
+            this.button105.BackColor = System.Drawing.Color.Transparent;
+            this.button105.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button105.FlatAppearance.BorderSize = 0;
+            this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button105.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button105.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button105.Location = new System.Drawing.Point(90, 18);
+            this.button105.Name = "button105";
+            this.button105.Size = new System.Drawing.Size(138, 23);
+            this.button105.TabIndex = 0;
+            this.button105.Text = "Team name";
+            this.button105.UseVisualStyleBackColor = false;
+            // 
+            // panel28
+            // 
+            this.panel28.AutoSize = true;
+            this.panel28.Controls.Add(this.button106);
+            this.panel28.Controls.Add(this.button107);
+            this.panel28.Controls.Add(this.button108);
+            this.panel28.Controls.Add(this.button109);
+            this.panel28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel28.Location = new System.Drawing.Point(3, 412);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(365, 123);
+            this.panel28.TabIndex = 6;
+            // 
+            // button106
+            // 
+            this.button106.BackColor = System.Drawing.Color.Transparent;
+            this.button106.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button106.FlatAppearance.BorderSize = 0;
+            this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button106.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button106.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button106.Location = new System.Drawing.Point(223, 58);
+            this.button106.Name = "button106";
+            this.button106.Size = new System.Drawing.Size(90, 23);
+            this.button106.TabIndex = 3;
+            this.button106.Text = "First Lineup";
+            this.button106.UseVisualStyleBackColor = false;
+            // 
+            // button107
+            // 
+            this.button107.BackColor = System.Drawing.Color.Transparent;
+            this.button107.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button107.FlatAppearance.BorderSize = 0;
+            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button107.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button107.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button107.Location = new System.Drawing.Point(150, 58);
+            this.button107.Name = "button107";
+            this.button107.Size = new System.Drawing.Size(78, 23);
+            this.button107.TabIndex = 2;
+            this.button107.Text = "Matchup";
+            this.button107.UseVisualStyleBackColor = false;
+            // 
+            // button108
+            // 
+            this.button108.BackColor = System.Drawing.Color.Transparent;
+            this.button108.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button108.FlatAppearance.BorderSize = 0;
+            this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button108.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button108.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button108.Location = new System.Drawing.Point(80, 58);
+            this.button108.Name = "button108";
+            this.button108.Size = new System.Drawing.Size(64, 23);
+            this.button108.TabIndex = 1;
+            this.button108.Text = "Roster";
+            this.button108.UseVisualStyleBackColor = false;
+            // 
+            // button109
+            // 
+            this.button109.BackColor = System.Drawing.Color.Transparent;
+            this.button109.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button109.FlatAppearance.BorderSize = 0;
+            this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button109.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button109.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button109.Location = new System.Drawing.Point(90, 18);
+            this.button109.Name = "button109";
+            this.button109.Size = new System.Drawing.Size(138, 23);
+            this.button109.TabIndex = 0;
+            this.button109.Text = "Team name";
+            this.button109.UseVisualStyleBackColor = false;
+            // 
+            // panel29
+            // 
+            this.panel29.AutoSize = true;
+            this.panel29.Controls.Add(this.button110);
+            this.panel29.Controls.Add(this.button111);
+            this.panel29.Controls.Add(this.button112);
+            this.panel29.Controls.Add(this.button113);
+            this.panel29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel29.Location = new System.Drawing.Point(3, 283);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(365, 123);
+            this.panel29.TabIndex = 5;
+            // 
+            // button110
+            // 
+            this.button110.BackColor = System.Drawing.Color.Transparent;
+            this.button110.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button110.FlatAppearance.BorderSize = 0;
+            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button110.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button110.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button110.Location = new System.Drawing.Point(223, 58);
+            this.button110.Name = "button110";
+            this.button110.Size = new System.Drawing.Size(90, 23);
+            this.button110.TabIndex = 3;
+            this.button110.Text = "First Lineup";
+            this.button110.UseVisualStyleBackColor = false;
+            // 
+            // button111
+            // 
+            this.button111.BackColor = System.Drawing.Color.Transparent;
+            this.button111.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button111.FlatAppearance.BorderSize = 0;
+            this.button111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button111.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button111.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button111.Location = new System.Drawing.Point(150, 58);
+            this.button111.Name = "button111";
+            this.button111.Size = new System.Drawing.Size(78, 23);
+            this.button111.TabIndex = 2;
+            this.button111.Text = "Matchup";
+            this.button111.UseVisualStyleBackColor = false;
+            // 
+            // button112
+            // 
+            this.button112.BackColor = System.Drawing.Color.Transparent;
+            this.button112.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button112.FlatAppearance.BorderSize = 0;
+            this.button112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button112.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button112.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button112.Location = new System.Drawing.Point(80, 58);
+            this.button112.Name = "button112";
+            this.button112.Size = new System.Drawing.Size(64, 23);
+            this.button112.TabIndex = 1;
+            this.button112.Text = "Roster";
+            this.button112.UseVisualStyleBackColor = false;
+            // 
+            // button113
+            // 
+            this.button113.BackColor = System.Drawing.Color.Transparent;
+            this.button113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button113.FlatAppearance.BorderSize = 0;
+            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button113.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button113.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button113.Location = new System.Drawing.Point(90, 18);
+            this.button113.Name = "button113";
+            this.button113.Size = new System.Drawing.Size(138, 23);
+            this.button113.TabIndex = 0;
+            this.button113.Text = "Team name";
+            this.button113.UseVisualStyleBackColor = false;
+            // 
+            // panel30
+            // 
+            this.panel30.AutoSize = true;
+            this.panel30.Controls.Add(this.button114);
+            this.panel30.Controls.Add(this.button115);
+            this.panel30.Controls.Add(this.button116);
+            this.panel30.Controls.Add(this.button117);
+            this.panel30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel30.Location = new System.Drawing.Point(3, 154);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(365, 123);
+            this.panel30.TabIndex = 4;
+            // 
+            // button114
+            // 
+            this.button114.BackColor = System.Drawing.Color.Transparent;
+            this.button114.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button114.FlatAppearance.BorderSize = 0;
+            this.button114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button114.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button114.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button114.Location = new System.Drawing.Point(223, 58);
+            this.button114.Name = "button114";
+            this.button114.Size = new System.Drawing.Size(90, 23);
+            this.button114.TabIndex = 3;
+            this.button114.Text = "First Lineup";
+            this.button114.UseVisualStyleBackColor = false;
+            // 
+            // button115
+            // 
+            this.button115.BackColor = System.Drawing.Color.Transparent;
+            this.button115.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button115.FlatAppearance.BorderSize = 0;
+            this.button115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button115.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button115.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button115.Location = new System.Drawing.Point(150, 58);
+            this.button115.Name = "button115";
+            this.button115.Size = new System.Drawing.Size(78, 23);
+            this.button115.TabIndex = 2;
+            this.button115.Text = "Matchup";
+            this.button115.UseVisualStyleBackColor = false;
+            // 
+            // button116
+            // 
+            this.button116.BackColor = System.Drawing.Color.Transparent;
+            this.button116.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button116.FlatAppearance.BorderSize = 0;
+            this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button116.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button116.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button116.Location = new System.Drawing.Point(80, 58);
+            this.button116.Name = "button116";
+            this.button116.Size = new System.Drawing.Size(64, 23);
+            this.button116.TabIndex = 1;
+            this.button116.Text = "Roster";
+            this.button116.UseVisualStyleBackColor = false;
+            // 
+            // button117
+            // 
+            this.button117.BackColor = System.Drawing.Color.Transparent;
+            this.button117.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button117.FlatAppearance.BorderSize = 0;
+            this.button117.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button117.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button117.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button117.Location = new System.Drawing.Point(90, 18);
+            this.button117.Name = "button117";
+            this.button117.Size = new System.Drawing.Size(138, 23);
+            this.button117.TabIndex = 0;
+            this.button117.Text = "Team name";
+            this.button117.UseVisualStyleBackColor = false;
+            // 
+            // panel31
+            // 
+            this.panel31.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel31.Controls.Add(this.button118);
+            this.panel31.Controls.Add(this.button119);
+            this.panel31.Controls.Add(this.button120);
+            this.panel31.Controls.Add(this.button121);
+            this.panel31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel31.Location = new System.Drawing.Point(3, 25);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(365, 123);
+            this.panel31.TabIndex = 1;
+            // 
+            // button118
+            // 
+            this.button118.BackColor = System.Drawing.Color.Transparent;
+            this.button118.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button118.FlatAppearance.BorderSize = 0;
+            this.button118.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button118.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button118.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button118.Location = new System.Drawing.Point(223, 58);
+            this.button118.Name = "button118";
+            this.button118.Size = new System.Drawing.Size(90, 23);
+            this.button118.TabIndex = 3;
+            this.button118.Text = "First Lineup";
+            this.button118.UseVisualStyleBackColor = false;
+            // 
+            // button119
+            // 
+            this.button119.BackColor = System.Drawing.Color.Transparent;
+            this.button119.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button119.FlatAppearance.BorderSize = 0;
+            this.button119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button119.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button119.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button119.Location = new System.Drawing.Point(150, 58);
+            this.button119.Name = "button119";
+            this.button119.Size = new System.Drawing.Size(78, 23);
+            this.button119.TabIndex = 2;
+            this.button119.Text = "Matchup";
+            this.button119.UseVisualStyleBackColor = false;
+            // 
+            // button120
+            // 
+            this.button120.BackColor = System.Drawing.Color.Transparent;
+            this.button120.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button120.FlatAppearance.BorderSize = 0;
+            this.button120.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button120.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button120.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button120.Location = new System.Drawing.Point(80, 58);
+            this.button120.Name = "button120";
+            this.button120.Size = new System.Drawing.Size(64, 23);
+            this.button120.TabIndex = 1;
+            this.button120.Text = "Roster";
+            this.button120.UseVisualStyleBackColor = false;
+            // 
+            // button121
+            // 
+            this.button121.BackColor = System.Drawing.Color.Transparent;
+            this.button121.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button121.FlatAppearance.BorderSize = 0;
+            this.button121.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button121.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button121.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button121.Location = new System.Drawing.Point(90, 18);
+            this.button121.Name = "button121";
+            this.button121.Size = new System.Drawing.Size(138, 23);
+            this.button121.TabIndex = 0;
+            this.button121.Text = "Team name";
+            this.button121.UseVisualStyleBackColor = false;
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox7.Location = new System.Drawing.Point(0, 0);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(371, 22);
+            this.textBox7.TabIndex = 3;
+            this.textBox7.Text = "Southwest";
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form3
             // 
@@ -2775,6 +2775,10 @@
             this.panel14.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -2789,21 +2793,6 @@
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tableLayoutPanel6.ResumeLayout(false);
-            this.tableLayoutPanel6.PerformLayout();
-            this.panel27.ResumeLayout(false);
-            this.panel28.ResumeLayout(false);
-            this.panel29.ResumeLayout(false);
-            this.panel30.ResumeLayout(false);
-            this.panel31.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
-            this.panel22.ResumeLayout(false);
-            this.panel23.ResumeLayout(false);
-            this.panel24.ResumeLayout(false);
-            this.panel25.ResumeLayout(false);
-            this.panel26.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
             this.panel17.ResumeLayout(false);
@@ -2811,9 +2800,20 @@
             this.panel19.ResumeLayout(false);
             this.panel20.ResumeLayout(false);
             this.panel21.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            this.panel23.ResumeLayout(false);
+            this.panel24.ResumeLayout(false);
+            this.panel25.ResumeLayout(false);
+            this.panel26.ResumeLayout(false);
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
+            this.panel27.ResumeLayout(false);
+            this.panel28.ResumeLayout(false);
+            this.panel29.ResumeLayout(false);
+            this.panel30.ResumeLayout(false);
+            this.panel31.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2828,6 +2828,34 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl Eastern;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button button43;
+        private System.Windows.Forms.Button button44;
+        private System.Windows.Forms.Button button45;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Button button46;
+        private System.Windows.Forms.Button button47;
+        private System.Windows.Forms.Button button48;
+        private System.Windows.Forms.Button button49;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Button button50;
+        private System.Windows.Forms.Button button51;
+        private System.Windows.Forms.Button button52;
+        private System.Windows.Forms.Button button53;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Button button54;
+        private System.Windows.Forms.Button button55;
+        private System.Windows.Forms.Button button56;
+        private System.Windows.Forms.Button button57;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Button button58;
+        private System.Windows.Forms.Button button59;
+        private System.Windows.Forms.Button button60;
+        private System.Windows.Forms.Button button61;
+        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button22;
@@ -2855,7 +2883,33 @@
         private System.Windows.Forms.Button button40;
         private System.Windows.Forms.Button button41;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.Panel panel27;
         private System.Windows.Forms.Button button102;
@@ -2937,59 +2991,5 @@
         private System.Windows.Forms.Button button80;
         private System.Windows.Forms.Button button81;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Button button42;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Button button46;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Button button50;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Button button54;
-        private System.Windows.Forms.Button button55;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button57;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Button button58;
-        private System.Windows.Forms.Button button59;
-        private System.Windows.Forms.Button button60;
-        private System.Windows.Forms.Button button61;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
