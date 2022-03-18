@@ -26,5 +26,10 @@ namespace lab1
         {
 
         }
+
+        private void panel31_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
