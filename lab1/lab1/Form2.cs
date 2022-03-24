@@ -22,5 +22,11 @@ namespace lab1
             Form adminForm = new Form3();
             adminForm.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form adminForm = new Form1();
+            adminForm.Show();
+        }
     }
 }
