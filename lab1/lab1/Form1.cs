@@ -13,11 +13,14 @@ namespace lab1
     public partial class Form1 : Form
     {
         String[] imgList = new String[]
-            {"0.jpg","1.jpeg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg", };
+            {"0.jpg","1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg","10.jpg","11.jpg","12.jpg","13.jpg","14.jpg","15.jpg","16.jpg","17.jpg", };
         int index = 0;
-        country1[] countries = new country1[5];
+        country1[] countries = new country1[39];
         public Form1()
         {
+             
+            
+
             InitializeComponent();
             pictureBox2.Load("../../../pictures/" + imgList[0]);
             pictureBox3.Load("../../../pictures/" + imgList[1]);
@@ -187,6 +190,7 @@ namespace lab1
         {
             Form adminForm = new Form2();
             adminForm.Show();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

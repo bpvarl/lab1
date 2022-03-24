@@ -11,3 +11,4 @@ C:\Users\лгор\Desktop\lab1\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.
 C:\Users\лгор\Desktop\lab1\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
 C:\Users\лгор\Desktop\lab1\lab1\lab1\obj\Debug\lab1.exe
 C:\Users\лгор\Desktop\lab1\lab1\lab1\obj\Debug\lab1.pdb
+C:\Users\лгор\Desktop\lab1\lab1\lab1\obj\Debug\lab1.Form4.resources
